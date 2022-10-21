@@ -60,6 +60,10 @@ h6 {
   text-align: justify;
 }
 
+.margin-right {
+  margin-right: 20px;
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -656,9 +660,10 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  position: relative;
 }
 
-.about .content ul li {
+.about .content li {
   padding: 0 0 8px 26px;
   position: relative;
 }
